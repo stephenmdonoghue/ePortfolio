@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/*
+AUTHOR: STEPHEN DONOGHUE
+DATE: 2023-02-01
+*/
+
+/* BASIC STYLES */
+body {
+    background-color: #faf8f2;
+}
+
+a, p, h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+img.center {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NAV BAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* BANNER IMAGE*/
+  img.banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
