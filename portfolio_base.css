@@ -8,6 +8,7 @@ DATE: 2023-02-01
 /* BASIC STYLES */
 body {
     background-color: #faf8f2;
+    height: 100%;
 }
 
 a, p, h1 {
@@ -32,6 +33,19 @@ article {
     margin-right: auto;
 }
 
+footer {
+  background-color: #333;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1px;
+}
+
+footer p {
+  color: #faf8f2;
+  text-align: center;
+}
+
 /* NAV BAR */
 ul {
     list-style-type: none;
@@ -43,6 +57,7 @@ ul {
   
   li {
     float: left;
+    width: 20%;
   }
   
   li a {
